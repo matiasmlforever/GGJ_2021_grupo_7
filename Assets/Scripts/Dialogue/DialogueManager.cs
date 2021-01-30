@@ -3,11 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
+
+    public bool started = false;
 
     public Queue<string> sentences;
     public bool drawSentence = false;
@@ -48,6 +51,7 @@ public class DialogueManager : MonoBehaviour
         foreach (string sentence in dialogue.sentences) {
             sentences.Enqueue(sentence);
         }
+        started = true;
         DisplayNextSentence();
     }
 
@@ -65,6 +69,7 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue()
     {
+        started = false;
         Debug.Log("End of conversation.");
     }
 }
