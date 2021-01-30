@@ -31,7 +31,7 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IPointerClickHandler,
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Dragging");
+        //Debug.Log("Dragging");
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
@@ -45,27 +45,27 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IPointerClickHandler,
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+        //Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("Mouse Down: " + eventData.pointerCurrentRaycast.gameObject.name);
+       // Debug.Log("Mouse Down: " + eventData.pointerCurrentRaycast.gameObject.name);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("Mouse Enter");
+       // Debug.Log("Mouse Enter");
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("Mouse Exit");
+        //Debug.Log("Mouse Exit");
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Debug.Log("Mouse Up");
+        //Debug.Log("Mouse Up");
     }
 
     public void OnDrop(PointerEventData eventData)
