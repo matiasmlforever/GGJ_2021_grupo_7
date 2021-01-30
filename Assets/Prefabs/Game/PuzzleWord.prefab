@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7091402376729258151}
   - component: {fileID: 1394686383088633828}
   - component: {fileID: 138414216726524693}
+  - component: {fileID: 5741257929189619143}
   m_Layer: 5
   m_Name: PuzzleWord
   m_TagString: Untagged
@@ -89,7 +90,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 778699b01d5f0da4780a1bea786ba8bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WordId: 0
+  WordId: 1
+  matchingSlot: {fileID: 0}
 --- !u!114 &138414216726524693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,3 +104,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e07646a7f77f444a8974368cc41242a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+--- !u!225 &5741257929189619143
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318997536151669105}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
