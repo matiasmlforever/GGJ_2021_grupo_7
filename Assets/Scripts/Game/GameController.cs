@@ -5,15 +5,32 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public WordObject[] words;
+    public GameObject pauseMenu;
+    public bool paused = false;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("ESCAPE PRESSED");
+            pauseMenu.SetActive(true);
+            if (!paused) PauseGame();
+            else ResumeGame();
+        }
+    }
+
+    void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    void ResumeGame()
+    {
+        Time.timeScale = 1;
     }
 }

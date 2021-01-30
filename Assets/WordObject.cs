@@ -52,5 +52,8 @@ public class WordObject : MonoBehaviour, IPointerDownHandler
             FindObjectOfType<DialogueManager>().DisplayNextSentence();
         }
 
+
+
+
     }
 }

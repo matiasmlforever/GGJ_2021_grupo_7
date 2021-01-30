@@ -16,6 +16,8 @@ public class DialogueManager : MonoBehaviour
     public bool drawSentence = false;
     public string drawingSentence;
 
+    public DialogueBox dialogueBox;
+
     private float nextActionTime = 0.0f;
     public float period = 0.1f;
 
