@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManagerIntro : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     private float nextActionTime = 0.0f;
     public float period = 0.1f;
 
-    void Update()
+    void FixedUpdate()
     {
         if (Time.time > nextActionTime)
         {

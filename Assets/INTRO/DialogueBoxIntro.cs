@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class DialogueBox : MonoBehaviour, IPointerDownHandler
+public class DialogueBoxIntro : MonoBehaviour, IPointerDownHandler
 {
-    public DialogueManager dialogueManager;
+    public DialogueManagerIntro dialogueManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,16 +28,11 @@ public class DialogueBox : MonoBehaviour, IPointerDownHandler
         {
             if (dialogueManager.currentSentence == 3)
             {
-                Debug.Log("TERCERA SENTENCIA");
-                Hide();
-            }
-            else if (dialogueManager.currentSentence == 5)
-            {
                 FindObjectOfType<SceneNavegation>().LoadNextScene();
             }
             else
             {
-                FindObjectOfType<DialogueTrigger>().TriggerDialogue();
+                FindObjectOfType<DialogueTriggerIntro>().TriggerDialogue();
 
             }
         }

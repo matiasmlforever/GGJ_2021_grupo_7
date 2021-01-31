@@ -337,6 +337,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1500919001}
   objectImage: {fileID: 867433474}
   shiny: {fileID: 354151664}
+  boxOpen: {fileID: 0}
 --- !u!1 &588834338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8624277437786182596, guid: 75066dc0588a33042ae453b224da4608, type: 3}
@@ -654,6 +655,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 768
       objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.88009
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.88009
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.88009
+      objectReference: {fileID: 0}
     - target: {fileID: 8511516213981445545, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_UseSpriteMesh
       value: 0
@@ -730,11 +743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8624277437786182599, guid: 75066dc0588a33042ae453b224da4608, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1400
+      value: 1002.3
       objectReference: {fileID: 0}
     - target: {fileID: 8624277437786182599, guid: 75066dc0588a33042ae453b224da4608, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 900
+      value: 748
       objectReference: {fileID: 0}
     - target: {fileID: 8624277437786182599, guid: 75066dc0588a33042ae453b224da4608, type: 3}
       propertyPath: m_AnchorMin.x
