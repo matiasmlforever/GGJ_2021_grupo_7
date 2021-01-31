@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1850ed1d35d395847baf7becddb16013
+guid: 7a658884d38e44d9d9cee5eba7a1e1f7
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,6 +8,7 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
+  fontName: Caroni
   fontNames:
   - Caroni
   fallbackFontReferences: []

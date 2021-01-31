@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("ESCAPE PRESSED");
+            pauseMenu.transform.SetAsLastSibling();
             pauseMenu.SetActive(true);
             if (!paused) PauseGame();
             else ResumeGame();
@@ -26,11 +27,14 @@ public class GameController : MonoBehaviour
 
     void PauseGame()
     {
+        paused = true;
         Time.timeScale = 0;
     }
 
     void ResumeGame()
     {
+        paused = false;
         Time.timeScale = 1;
+        pauseMenu.SetActive(false);
     }
 }
