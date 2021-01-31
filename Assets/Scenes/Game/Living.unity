@@ -489,7 +489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9aa642ad00105964496d1ecf56930821, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73079a4f95f92474bbb5d19ab7672851, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -553,10 +553,10 @@ PrefabInstance:
     - target: {fileID: 3142754737244149972, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8b5cbac65028dea49a445498e4a862b3, type: 3}
+      objectReference: {fileID: 21300000, guid: 70324e5b13f98774090fb1a5246b5d53, type: 3}
     - target: {fileID: 3142754737244149972, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_PreserveAspect
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3847907666274751283, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_CullTransparentMesh
@@ -653,6 +653,22 @@ PrefabInstance:
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_SizeDelta.y
       value: 768
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 8511516213981445545, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_UseSpriteMesh
@@ -925,11 +941,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -4
+      value: -185
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -64.3
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_SizeDelta.x
@@ -989,27 +1005,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506189, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Es un alivio que a\xFAn est\xE9 bien mantenida. Al parecer los\r\nvecinos
-        no han descuidado lo que hay del jard\xEDn delantero. La\r\nvida aqu\xED
-        es muy tranquila.\r"
+      value: "Vaya... El polvo se ha acumulado en pocos d\xEDas. Dentro de\r\ntodo,
+        parece tal como lo recuerdo aquella vez. Me sorprende\r\nlo poco que ha cambiado
+        en este lugar.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506189, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Bueno, no tengo tiempo para procrastinar. Espero poder hacer\r\nesto
-        r\xE1pido; as\xED pasado ma\xF1ana pueda tenerla lista para\r\nponerla a
-        la venta."
+      value: "En fin, debo concentrarme, a ver si hay algo que pueda\r\nrematar.
+        Los muebles viejos son famosos entre los\r\ncoleccionistas.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506189, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "\xBFQu\xE9 es eso que se asoma ah\xED?\r"
+      value: "Pero... Algo no cuadra en esta habitaci\xF3n. El caj\xF3n del\r\nbuffet
+        est\xE1 entreabierto \xBFUn descuido del corredor de\r\npropiedades? Como
+        sea..."
       objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506189, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
       propertyPath: dialogue.sentences.Array.data[4]
-      value: "SEMILLA... Claro.\r"
+      value: "AMOR...\r \nUn poco cursi, pero de su estilo."
       objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506189, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "Que raro. \xBFQu\xE9 hace un frasco al lado de la alfombra de\r\nbienvenida?\r"
+      value: "\xBFQue es esto?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506189, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
       propertyPath: dialogueBox

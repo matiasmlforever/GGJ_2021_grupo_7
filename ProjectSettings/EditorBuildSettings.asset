@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game/PatioExterior.unity
     guid: 9ecb8fe2ad65ab448974fede1a449676
   - enabled: 1
+    path: Assets/Scenes/Game/Living.unity
+    guid: a96f63f747313304bbd3a24d251fc14d
+  - enabled: 1
     path: Assets/Scenes/test/AnimationTest.unity
     guid: fbbd9f8206e16ae488d17fe4eb49bf97
   - enabled: 1
