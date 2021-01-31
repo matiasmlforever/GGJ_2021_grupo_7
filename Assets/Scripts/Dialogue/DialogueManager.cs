@@ -13,6 +13,7 @@ public class DialogueManager : MonoBehaviour
     public bool started = false;
 
     public Queue<string> sentences;
+    public int currentSentence;
     public bool drawSentence = false;
     public string drawingSentence;
 
@@ -35,6 +36,7 @@ public class DialogueManager : MonoBehaviour
                 if (drawingSentence.Length == 0) {
                     drawSentence = false;
                     clickHint.SetActive(true);
+                    currentSentence++;
                 }
             }
         }
@@ -44,6 +46,7 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         sentences = new Queue<string>();
+        currentSentence = 0;
     }
 
     internal void StartDialogue(Dialogue dialogue)
@@ -66,6 +69,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         string sentence = sentences.Dequeue();
+        Debug.Log("La sentencia actual: " + currentSentence);
         dialogueText.text = "";
         drawSentence = true;
         drawingSentence = sentence;

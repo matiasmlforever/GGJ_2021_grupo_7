@@ -762,6 +762,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75066dc0588a33042ae453b224da4608, type: 3}
+--- !u!114 &1036052135 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5490849673798593537, guid: a5f6f00443073ed459fda1914866a4a5, type: 3}
+  m_PrefabInstance: {fileID: 59374291}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f2c9396bf41354cb479b0f7ea0da2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1169272259 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1700761236683506192, guid: 5166c246c4c3c03438a43fe6d173f4b8, type: 3}
@@ -1126,6 +1137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 867517016}
     m_Modifications:
+    - target: {fileID: 1500919001, guid: 5514ed6746563c44e826e18b25feef8d, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 1036052135}
     - target: {fileID: 1770840969994352701, guid: 5514ed6746563c44e826e18b25feef8d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1180,7 +1195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1770840969994352701, guid: 5514ed6746563c44e826e18b25feef8d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 771.19
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 1770840969994352701, guid: 5514ed6746563c44e826e18b25feef8d, type: 3}
       propertyPath: m_SizeDelta.y
