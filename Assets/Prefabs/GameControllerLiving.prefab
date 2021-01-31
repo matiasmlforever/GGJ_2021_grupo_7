@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1700761236683506192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1700761236683506190}
+  - component: {fileID: 4781834443946065280}
+  - component: {fileID: 828326553}
+  - component: {fileID: 688607337359499731}
+  m_Layer: 0
+  m_Name: GameControllerLiving
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700761236683506190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700761236683506192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 418.5, y: 313.99997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4781834443946065280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700761236683506192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543868fe2785bca42b0f187b0e7eed1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  words: []
+  pauseMenu: {fileID: 0}
+  paused: 0
+--- !u!114 &828326553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700761236683506192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73684e5cd0a92347bcde6cd9f5f2a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: TEXTO
+    sentences:
+    - "Vaya... El polvo se ha acumulado en pocos d\xEDas. Dentro de\r\ntodo, parece
+      tal como lo recuerdo aquella vez. Me sorprende\r\nlo poco que ha cambiado en
+      este lugar.\r"
+    - "En fin, debo concentrarme, a ver si hay algo que pueda\r\nrematar. Los muebles
+      viejos son famosos entre los\r\ncoleccionistas.\r"
+    - "Pero... Algo no cuadra en esta habitaci\xF3n. El caj\xF3n del\r\nbuffet est\xE1
+      entreabierto \xBFUn descuido del corredor de\r\npropiedades? Como sea..."
+    - "\xBFQue es esto?\r"
+    - "AMOR...\r \nUn poco cursi, pero de su estilo."
+    - "Esta caja no hace sentido. Aunque sea peque\xF1a, no puedo\r\nabrirla de ninguna
+      forma, s\xF3lo una frase grabada que se ve\r\nincompleta. Esto es rid\xEDculo.
+      A menos que..."
+    - "El testamento del difunto.\r\nAl parecer no ten\xEDa mucho que heredar. La
+      \xFAltima vez que lo\r\nv\xED vivo estaba bastante empobrecido y senil, s\xF3lo
+      acompa\xF1ado\r\ndel enfermero.\r\nAdmito que no lo esperaba. De todos nuestros
+      familiares, me\r\neligi\xF3 a mi.\r\nEspera... \xBFqu\xE9 es eso?\r"
+  dialogueBox: {fileID: 0}
+--- !u!95 &688607337359499731
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700761236683506192}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 14c7e5fa06b3cd44b98343d98675ed16, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

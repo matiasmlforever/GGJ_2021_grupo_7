@@ -206,7 +206,7 @@ AnimationClip:
   - time: 4
     functionName: TriggerDialogue
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: c73684e5cd0a92347bcde6cd9f5f2a08, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

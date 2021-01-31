@@ -11,7 +11,7 @@ public class PuzzleWord2 : MonoBehaviour, IEndDragHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (!eventData.pointerEnter && Placed)
+        if (eventData.pointerEnter.name=="PuzzleArea" && Placed)
         {
             puzzle2.RemoveWord(this);
         }

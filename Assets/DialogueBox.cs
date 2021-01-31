@@ -26,7 +26,7 @@ public class DialogueBox : MonoBehaviour, IPointerDownHandler
     {
         if (!dialogueManager.drawSentence) 
         {
-            if (dialogueManager.currentSentence == 3)
+            if (dialogueManager.currentSentence == 3 && dialogueManager.started)
             {
                 Debug.Log("TERCERA SENTENCIA");
                 Hide();

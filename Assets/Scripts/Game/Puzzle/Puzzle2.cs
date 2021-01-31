@@ -20,11 +20,20 @@ public class Puzzle2 : MonoBehaviour
     void Update()
     {
         if (AreSlotsFull()) {
-            if (SequenceOK()) {
+            if (SequenceOK())
+            {
                 // Trigger effects of completing it correctly
-
+                Debug.Log("EXITO");
                 //then...
-                sceneController.LoadNextScene();
+                //sceneController.LoadNextScene();
+
+                //
+                FindObjectOfType<WordObject>().TransitionToOpenBox();
+                FindObjectOfType<PuzzleArea>().gameObject.SetActive(false);
+
+            }
+            else {
+                Debug.Log("SECUENCIA NOK");
             }
         }
     }

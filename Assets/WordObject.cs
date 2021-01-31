@@ -11,6 +11,8 @@ public class WordObject : MonoBehaviour, IPointerDownHandler
     public GameObject objectImage;
     public GameObject shiny;
 
+    public GameObject boxOpen;
+
     public void OnPointerDown(PointerEventData eventData)
     {
         if (!GameData.FoundWords.Contains(word))
@@ -42,5 +44,11 @@ public class WordObject : MonoBehaviour, IPointerDownHandler
         objectImage.SetActive(true);
         shiny.SetActive(false);
         //objectImage.GetComponent<ObjectImage>().HIDE();
+    }
+
+    public void TransitionToOpenBox() 
+    {
+        objectImage.SetActive(false);
+        boxOpen.SetActive(true);
     }
 }

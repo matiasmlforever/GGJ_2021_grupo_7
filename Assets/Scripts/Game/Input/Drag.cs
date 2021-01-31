@@ -70,6 +70,6 @@ public class Drag : MonoBehaviour, IPointerDownHandler, IPointerClickHandler,
 
     public void OnDrop(PointerEventData eventData)
     {
-        throw new NotImplementedException();
+        //throw new NotImplementedException();
     }
 }
