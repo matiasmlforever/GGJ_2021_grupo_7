@@ -17,6 +17,7 @@ public class DialogueManager : MonoBehaviour
     public string drawingSentence;
 
     public DialogueBox dialogueBox;
+    public GameObject clickHint;
 
     private float nextActionTime = 0.0f;
     public float period = 0.1f;
@@ -33,6 +34,7 @@ public class DialogueManager : MonoBehaviour
                 drawingSentence = drawingSentence.Substring(1);
                 if (drawingSentence.Length == 0) {
                     drawSentence = false;
+                    clickHint.SetActive(true);
                 }
             }
         }

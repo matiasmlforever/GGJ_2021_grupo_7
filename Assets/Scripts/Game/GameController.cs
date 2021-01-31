@@ -8,9 +8,12 @@ public class GameController : MonoBehaviour
     public GameObject pauseMenu;
     public bool paused = false;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        ResumeGame();
+    }
     void Start()
     {
-        
     }
 
     void Update()

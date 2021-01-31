@@ -8,13 +8,15 @@ public class WordObject : MonoBehaviour, IPointerDownHandler
 {
     public string word;
     public DialogueBox dialogueBox;
+    public GameObject objectImage;
+    public GameObject shiny;
 
     public void OnPointerDown(PointerEventData eventData)
     {
         if (!GameData.FoundWords.Contains(word))
         {
             GameData.FoundWords.Add(word);
-            pointerDownEffect();
+            PointerDownEffect();
             FindObjectOfType<KnownWords>().AddKnownWord(word);
 
         }
@@ -35,25 +37,10 @@ public class WordObject : MonoBehaviour, IPointerDownHandler
         
     }
 
-    void pointerDownEffect() {
-        GetComponent<Image>().raycastTarget = false;
+    void PointerDownEffect() {
         Debug.Log("trigger pointer down effect");
-        if (!dialogueBox.isActiveAndEnabled) {
-            dialogueBox.Show();
-        }
-
-        //triggers dialogue
-        if (!FindObjectOfType<DialogueManager>().started)
-        {
-            FindObjectOfType<DialogueTrigger>().TriggerDialogue();
-        }
-        else 
-        {
-            FindObjectOfType<DialogueManager>().DisplayNextSentence();
-        }
-
-
-
-
+        objectImage.SetActive(true);
+        shiny.SetActive(false);
+        //objectImage.GetComponent<ObjectImage>().HIDE();
     }
 }

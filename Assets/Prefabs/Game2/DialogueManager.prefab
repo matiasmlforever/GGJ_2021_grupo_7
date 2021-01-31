@@ -45,6 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}
+  started: 0
   drawSentence: 0
   drawingSentence: 
-  period: 0.1
+  dialogueBox: {fileID: 0}
+  clickHint: {fileID: 0}
+  period: 0.05

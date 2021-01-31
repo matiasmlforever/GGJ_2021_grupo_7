@@ -279,9 +279,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3142754737244149972, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142754737244149972, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142754737244149972, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3142754737244149972, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4857985335607388531, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857985335607388531, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4857985335789218644, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_Name
@@ -335,6 +355,14 @@ PrefabInstance:
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1544259321}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 768
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
 --- !u!223 &1544259321 stripped
