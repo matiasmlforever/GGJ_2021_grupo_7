@@ -801,14 +801,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1700761236683506191, guid: 267f8410604fe6d4a9e507a7cc16e8eb, type: 3}
-      propertyPath: pauseMenu
-      value: 
-      objectReference: {fileID: 1946750729}
     - target: {fileID: 1700761236683506192, guid: 267f8410604fe6d4a9e507a7cc16e8eb, type: 3}
       propertyPath: m_Name
       value: GameControllerIntro
       objectReference: {fileID: 0}
+    - target: {fileID: 6493302990666858233, guid: 267f8410604fe6d4a9e507a7cc16e8eb, type: 3}
+      propertyPath: pauseMenu
+      value: 
+      objectReference: {fileID: 1946750729}
+    - target: {fileID: 6493302990666858233, guid: 267f8410604fe6d4a9e507a7cc16e8eb, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 5703829626693898694, guid: e23785f4dede22f468aed6b914e50845, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 267f8410604fe6d4a9e507a7cc16e8eb, type: 3}
 --- !u!114 &1130379982 stripped

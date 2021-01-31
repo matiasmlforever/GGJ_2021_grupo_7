@@ -14,6 +14,7 @@ public class GameController : MonoBehaviour
     }
     void Start()
     {
+        GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().PlayMusic();
     }
 
     void Update()

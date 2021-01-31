@@ -7,6 +7,7 @@ public class GameControllerIntro : MonoBehaviour
     public WordObject[] words;
     public GameObject pauseMenu;
     public bool paused = false;
+    public GameObject music;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -14,6 +15,9 @@ public class GameControllerIntro : MonoBehaviour
     }
     void Start()
     {
+
+    music.GetComponent<Music>().PauseMusic();
+    //TODO: pausar musica al entrar a INTRO
     }
 
     void Update()

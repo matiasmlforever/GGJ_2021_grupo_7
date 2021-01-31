@@ -256,6 +256,10 @@ PrefabInstance:
       propertyPath: clickHint
       value: 
       objectReference: {fileID: 774456300}
+    - target: {fileID: 5490849673798593537, guid: a5f6f00443073ed459fda1914866a4a5, type: 3}
+      propertyPath: period
+      value: 0.075
+      objectReference: {fileID: 0}
     - target: {fileID: 5490849673798593566, guid: a5f6f00443073ed459fda1914866a4a5, type: 3}
       propertyPath: m_Name
       value: DialogueManager
@@ -571,9 +575,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4131267626967637597, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4857985335607388528, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4857985335607388531, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4857985335789218644, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_Name
