@@ -11,6 +11,12 @@ public class Music : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
     }
 
+    public void Start()
+    {
+        Debug.Log("here");
+        _audioSource = GetComponent<AudioSource>();
+    }
+
     public void PlayMusic()
     {
         if (_audioSource.isPlaying) return;
