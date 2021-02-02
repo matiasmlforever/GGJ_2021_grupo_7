@@ -61,24 +61,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: TEXTO
+    name: 
     sentences:
-    - "Vaya... El polvo se ha acumulado en pocos d\xEDas. Dentro de\r\ntodo, parece
-      tal como lo recuerdo aquella vez. Me sorprende\r\nlo poco que ha cambiado en
+    - "Vaya... El polvo se ha acumulado en pocos d\xEDas. Dentro de\r todo, parece
+      tal como lo recuerdo aquella vez. Me sorprende\r lo poco que ha cambiado en
       este lugar.\r"
-    - "En fin, debo concentrarme, a ver si hay algo que pueda\r\nrematar. Los muebles
-      viejos son famosos entre los\r\ncoleccionistas.\r"
-    - "Pero... Algo no cuadra en esta habitaci\xF3n. El caj\xF3n del\r\nbuffet est\xE1
-      entreabierto \xBFUn descuido del corredor de\r\npropiedades? Como sea..."
+    - En fin, debo concentrarme, a ver si hay algo que pueda rematar. Los muebles
+      viejos son famosos entre los coleccionistas.
+    - "Pero... Algo no cuadra en esta habitaci\xF3n. El caj\xF3n del\r buffet est\xE1
+      entreabierto \xBFUn descuido del corredor de\r propiedades? Como sea...\r"
     - "\xBFQue es esto?\r"
     - "AMOR...\r \nUn poco cursi, pero de su estilo."
-    - "Esta caja no hace sentido. Aunque sea peque\xF1a, no puedo\r\nabrirla de ninguna
-      forma, s\xF3lo una frase grabada que se ve\r\nincompleta. Esto es rid\xEDculo.
-      A menos que..."
-    - "El testamento del difunto.\r\nAl parecer no ten\xEDa mucho que heredar. La
-      \xFAltima vez que lo\r\nv\xED vivo estaba bastante empobrecido y senil, s\xF3lo
-      acompa\xF1ado\r\ndel enfermero.\r\nAdmito que no lo esperaba. De todos nuestros
-      familiares, me\r\neligi\xF3 a mi.\r\nEspera... \xBFqu\xE9 es eso?\r"
+    - "Esta caja no hace sentido. Aunque sea peque\xF1a, no puedo abrirla de ninguna
+      forma, s\xF3lo una frase grabada que se ve incompleta. Esto es rid\xEDculo.
+      A menos que...\r"
+    - "El testamento de la persona difunta.\r"
+    - "Al parecer no ten\xEDa mucho que heredar. La \xFAltima vez que lo\r v\xED
+      vivo estaba bastante empobrecido y senil, s\xF3lo acompa\xF1ado\r del enfermero."
+    - "Admito que no lo esperaba. De todos nuestros familiares, me\r eligi\xF3 a
+      mi.\r"
+    - "Espera... \xBFqu\xE9 es eso?"
+    - "\xBFPERO QU\xC9-?!\r"
+    - "MARGARITA\r:\nBienvenido. \xBFComo est\xE1s?"
+    - "Qu-que... \xBFque-q-que eres?"
+    - "MARGARITA\r:\nAh, lo siento, deb\xED introducirme\r primero. Mi nombre es
+      Margarita, y \ragradezco que hayas abierto esta\r caja.\r"
+    - "\xA1\xBFPor qu\xE9 hablas?!\r"
+    - "MARGARITA\r:\n\xBFNo lo recuerdas? Una vez me\r dijiste que pod\xEDa florecer,
+      y eso hice. Fue hace mucho tiempo."
+    - "(\xBFEstoy alucinando? \xA1Ni siquiera le hago a esas\r cosas!)"
+    - "MARGARITA:\nTe ves confundido. Bueno, reitero\r mis disculpas. Es normal que
+      no lo\r puedas recordar, considerando que\r me lo dijiste el d\xEDa que dejaste\r
+      esta casa."
+    - "\xBFCuando dej\xE9... Esta casa?"
+    - "MARGARITA\r\nFue un d\xEDa como este; fresco y\r soleado. Saliste con tus
+      maletas, y\r nos prometiste que alg\xFAn d\xEDa\r volver\xEDas.\r"
+    - "Por lo que recuerdo, nunca conoc\xED a\r una flor parlante."
+    - "MARGARITA\r:\nEs porque reci\xE9n est\xE1s recordando.\r  Antes sol\xEDa conversar
+      conmigo de lo\r que te gustaba ver en televisi\xF3n,\r de tus bromas y secretos..."
+    - "Supongo que era muy peque\xF1o en ese\r entonces \xBFPor qu\xE9 est\xE1s aqu\xED?\r"
+    - "MARGARITA\r:\nPara hacerte recordar, y para\r encomendarte un peque\xF1o favor:
+      en\r esta casa dejaron m\xE1s cofres, los\r cuales se abren con las palabras\r
+      correctas, en el lugar preciso.\r"
+    - "\xBFPor qu\xE9 deber\xEDa buscarlos?\r"
+    - "MARGARITA\r:\nPorque detr\xE1s de cada cofre yace un\r tesoro y las claves
+      para conseguir\r el m\xE1s grande tesoro de todos...\r \xBFNo querr\xE1s obtenerlo?\r"
+    - "(Un tesoro... \xBFser\xE1 algo\r que no atestigu\xF3 en su\r testamento? Sea
+      como sea,\r suena provechoso.)\r"
+    - "Ok Margarita, o lo que seas.\r  Tratar\xE9 de conseguirlos, aunque\r estoy
+      ocupado, as\xED que no te\r prometo nada.\r"
+    - "MARGARITA\r:\nNo te preocupes. Al final de\r cuentas, no es tanto una promesa\r
+      m\xEDa como de nuestro cuidador. Si\r necesitas mi gu\xEDa, estar\xE9 presente\r
+      para poder aconsejarte.\r"
+    - "MARGARITA\r:\nUnos \xFAltimos consejos: En primer\r lugar, recuerda que las
+      palabras\r son importantes para que puedas\r encontrar el mayor tesoro.\r"
+    - "MARGARITA\r:\nY en segundo lugar, recuerdo que\r una de las palabra se encuentra
+      en\r el lugar donde nuestro cuidador se\r nutr\xEDa, y otra en donde sol\xEDa\r
+      reposar en sus \xFAltimos d\xEDas."
+    - Lo agradezco.
   dialogueBox: {fileID: 0}
 --- !u!95 &688607337359499731
 Animator:

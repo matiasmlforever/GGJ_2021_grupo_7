@@ -29,6 +29,7 @@ public class DialogueBox : MonoBehaviour, IPointerDownHandler
             if (dialogueManager.currentSentence == 3)
             {
                 Debug.Log("TERCERA SENTENCIA");
+                FindObjectOfType<WordObject>().shiny.SetActive(true);
                 Hide();
             }
             else if (dialogueManager.currentSentence == 5)

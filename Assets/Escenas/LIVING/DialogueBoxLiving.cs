@@ -31,6 +31,7 @@ public class DialogueBoxLiving : MonoBehaviour, IPointerDownHandler
             if (dialogueManager.currentSentence == 3)
             {
                 Debug.Log("TERCERA SENTENCIA");
+                FindObjectOfType<WordObject>().shiny.SetActive(true);
                 Hide();
             }
             else if (dialogueManager.currentSentence == 6)
@@ -39,8 +40,19 @@ public class DialogueBoxLiving : MonoBehaviour, IPointerDownHandler
                 puzzleArea.transform.SetAsLastSibling();
 
             }
-            else if (dialogueManager.currentSentence == 9)
+            else if (dialogueManager.currentSentence == 10)
             {
+                FindObjectOfType<WordObject>().boxOpen.SetActive(false);
+                Hide();
+                try
+                {
+                    GameObject.FindGameObjectWithTag("Music").GetComponent<Music>().StopMusic();
+                }
+                catch (System.Exception)
+                {
+                    Debug.Log("no music object");
+                }
+                
                 personaje.SetActive(true);
             }
             else

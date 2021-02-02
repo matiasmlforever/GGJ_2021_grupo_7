@@ -5,6 +5,8 @@ using UnityEngine;
 public class Music : MonoBehaviour
 {
     private AudioSource _audioSource;
+    public AudioClip[] audioClips;
+    public AudioClip[] soundEffects;
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);

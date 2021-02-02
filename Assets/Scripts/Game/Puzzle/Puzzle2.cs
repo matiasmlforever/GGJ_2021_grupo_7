@@ -27,13 +27,13 @@ public class Puzzle2 : MonoBehaviour
                 //then...
                 //sceneController.LoadNextScene();
 
-                //
+
                 FindObjectOfType<WordObject>().TransitionToOpenBox();
                 FindObjectOfType<PuzzleArea>().gameObject.SetActive(false);
-
             }
             else {
                 Debug.Log("SECUENCIA NOK");
+                GetComponent<AudioSource>().PlayOneShot(GetComponent<AudioSource>().clip);
             }
         }
     }

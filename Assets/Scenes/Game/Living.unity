@@ -594,11 +594,282 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b408ad37e8ab45a4993da396bd403f07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &109564634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 109564637}
+  - component: {fileID: 109564636}
+  - component: {fileID: 109564635}
+  m_Layer: 0
+  m_Name: LivingSfx
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &109564635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109564634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb62577f8c30f2946ba8877daa229527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &109564636
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109564634}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &109564637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109564634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 436.9769, y: 319.74292, z: -58.989487}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201459806 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1820648120527399940, guid: ccf3a9fa322ec48c082eedb48993b4f7, type: 3}
   m_PrefabInstance: {fileID: 1293569379}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &201459807
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201459806}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b841807ed315954fb6276b4138bc14c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &201459808
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201459806}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 84ccd2f32510442429ffeb499db442df, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &201459809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201459806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73684e5cd0a92347bcde6cd9f5f2a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences: []
+  dialogueBox: {fileID: 319080106}
 --- !u!1001 &319080102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -660,11 +931,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1770840969994352701, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 650
+      value: 692.36
       objectReference: {fileID: 0}
     - target: {fileID: 1770840969994352701, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 151.7
+      value: 206.4
       objectReference: {fileID: 0}
     - target: {fileID: 1770840969994352701, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
       propertyPath: m_AnchorMin.x
@@ -717,6 +988,22 @@ PrefabInstance:
     - target: {fileID: 7698320386184175011, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
       propertyPath: m_Text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889106550108541884, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889106550108541884, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889106550108541884, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 600.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889106550108541884, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 116.2
       objectReference: {fileID: 0}
     - target: {fileID: 8310415326085497250, guid: 9b2562b8c34834f49a4ba76adc106e6c, type: 3}
       propertyPath: dialogueManager
@@ -1097,10 +1384,6 @@ PrefabInstance:
       propertyPath: clickHint
       value: 
       objectReference: {fileID: 319080103}
-    - target: {fileID: -5243567876772926622, guid: d2062a2e0dba79e4b95f7a45519b7044, type: 3}
-      propertyPath: period
-      value: 0.01
-      objectReference: {fileID: 0}
     - target: {fileID: 5490849673798593536, guid: d2062a2e0dba79e4b95f7a45519b7044, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1170,170 +1453,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
       propertyPath: dialogueBox
       value: 
       objectReference: {fileID: 319080106}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: "Vaya... El polvo se ha acumulado en pocos d\xEDas. Dentro de\r\ntodo,
-        parece tal como lo recuerdo aquella vez. Me sorprende\r\nlo poco que ha cambiado
-        en este lugar.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: 'En fin, debo concentrarme, a ver si hay algo que pueda
-
-        rematar.
-        Los muebles viejos son famosos entre los
-
-        coleccionistas.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: "Pero... Algo no cuadra en esta habitaci\xF3n. El caj\xF3n del\r\nbuffet
-        est\xE1 entreabierto \xBFUn descuido del corredor de\r\npropiedades? Como
-        sea...\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[5]
-      value: "Esta caja no hace sentido. Aunque sea peque\xF1a, no puedo\r\nabrirla
-        de ninguna forma, s\xF3lo una frase grabada que se ve\r\nincompleta. Esto
-        es rid\xEDculo. A menos que...\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[7]
-      value: "Al parecer no ten\xEDa mucho que heredar. La \xFAltima vez que lo\r\nv\xED
-        vivo estaba bastante empobrecido y senil, s\xF3lo acompa\xF1ado\r\ndel enfermero."
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[8]
-      value: "Admito que no lo esperaba. De todos nuestros familiares, me\r\neligi\xF3
-        a mi.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[9]
-      value: "Espera... \xBFqu\xE9 es eso?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[10]
-      value: "\xBFPERO QU\xC9-?!\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[11]
-      value: "MARGARITA\r:\nBienvenido. \xBFComo est\xE1s?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[12]
-      value: "Qu-que... \xBFque-q-que eres?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[13]
-      value: "MARGARITA\r:\nAh, lo siento, deb\xED introducirme\r\nprimero. Mi nombre
-        es Margarita, y\r\nagradezco que hayas abierto esta\r\ncaja.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[14]
-      value: "\xA1\xBFPor qu\xE9 hablas?!\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[15]
-      value: "MARGARITA\r:\n\xBFNo lo recuerdas? Una vez me\r\ndijiste que pod\xEDa
-        florecer, y eso\r\nhice. Fue hace mucho tiempo.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[16]
-      value: "(\xBFEstoy alucinando? \xA1Ni si\r\nquiera le hago a esas\r\ncosas!)"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[17]
-      value: "MARGARITA:\nTe ves confundido. Bueno, reitero\r\nmis disculpas. Es
-        normal que no lo\r\npuedas recordar, considerando que\r\nme lo dijiste el
-        d\xEDa que dejaste\r\nesta casa."
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[18]
-      value: "\xBFCuando dej\xE9... Esta casa?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[19]
-      value: "MARGARITA\r\nFue un d\xEDa como este; fresco y\r\nsoleado. Saliste
-        con tus maletas, y\r\nnos prometiste que alg\xFAn d\xEDa\r\nvolver\xEDas.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[20]
-      value: "Por lo que recuerdo, nunca conoc\xED a\r\nuna flor parlante."
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[21]
-      value: "MARGARITA\r:\nEs porque reci\xE9n est\xE1s recordando.\r\nAntes sol\xEDa
-        conversar conmigo de lo\r\nque te gustaba ver en televisi\xF3n,\r\nde tus
-        bromas y secretos..."
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[22]
-      value: "Supongo que era muy peque\xF1o en ese\r\nentonces \xBFPor qu\xE9 est\xE1s
-        aqu\xED?\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[23]
-      value: "MARGARITA\r:\nPara hacerte recordar, y para\r\nencomendarte un peque\xF1o
-        favor: en\r\nesta casa dejaron m\xE1s cofres, los\r\ncuales se abren con
-        las palabras\r\ncorrectas, en el lugar preciso.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[24]
-      value: "\xBFPor qu\xE9 deber\xEDa buscarlos?\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[25]
-      value: "MARGARITA\r:\nPorque detr\xE1s de cada cofre yace un\r\ntesoro y las
-        claves para conseguir\r\nel m\xE1s grande tesoro de todos...\r\n\xBFNo querr\xE1s
-        obtenerlo?\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[26]
-      value: "(Un tesoro... \xBFser\xE1 algo\r\nque no atestigu\xF3 en su\r\ntestamento?
-        Sea como sea,\r\nsuena provechoso.)\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[27]
-      value: "Ok Margarita, o lo que seas.\r\nTratar\xE9 de conseguirlos, aunque\r\nestoy
-        ocupado, as\xED que no te\r\nprometo nada.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[28]
-      value: "MARGARITA\r:\nNo te preocupes. Al final de\r\ncuentas, no es tanto
-        una promesa\r\nm\xEDa como de nuestro cuidador. Si\r\nnecesitas mi gu\xEDa,
-        estar\xE9 presente\r\npara poder aconsejarte.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[29]
-      value: "MARGARITA\r:\nUnos \xFAltimos consejos: En primer\r\nlugar, recuerda
-        que las palabras\r\nson importantes para que puedas\r\nencontrar el mayor
-        tesoro.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[30]
-      value: "MARGARITA\r:\nY en segundo lugar, recuerdo que\r\nuna de las palabra
-        se encuentra en\r\nel lugar donde nuestro cuidador se\r\nnutr\xEDa, y otra
-        en donde sol\xEDa\r\nreposar en sus \xFAltimos d\xEDas."
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[31]
-      value: Lo agradezco.
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.sentences.Array.data[6]
-      value: "El testamento de la persona difunta.\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 828326553, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
-      propertyPath: dialogue.name
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1700761236683506190, guid: 14689778543bc1846b7526b8f2aa992c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 418.5
@@ -1530,6 +1652,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4131267626967637597, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4131267626967637598, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4857985335607388528, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1608,27 +1738,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1024
+      value: 2696.8567
       objectReference: {fileID: 0}
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 768
+      value: 1808
       objectReference: {fileID: 0}
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0218183
+      value: 0.44979
       objectReference: {fileID: 0}
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0218183
+      value: 0.44979
       objectReference: {fileID: 0}
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0218183
+      value: 0.44979
       objectReference: {fileID: 0}
     - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 38
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262310543916272086, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8511516213981445545, guid: acd83d8b3c3705748a454966ee3c0a37, type: 3}
       propertyPath: m_UseSpriteMesh
@@ -1738,15 +1872,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8624277437786182599, guid: 75066dc0588a33042ae453b224da4608, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1641
+      value: 1.3880728
       objectReference: {fileID: 0}
     - target: {fileID: 8624277437786182599, guid: 75066dc0588a33042ae453b224da4608, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1641
+      value: 1.3880728
       objectReference: {fileID: 0}
     - target: {fileID: 8624277437786182599, guid: 75066dc0588a33042ae453b224da4608, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1641
+      value: 1.3880728
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75066dc0588a33042ae453b224da4608, type: 3}
@@ -2361,7 +2495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5369387629757201083, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2409,11 +2543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -252
+      value: -275
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 27
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6170477042904242004, guid: 2e123f2cee78947d296ae7897755e095, type: 3}
       propertyPath: m_SizeDelta.x
