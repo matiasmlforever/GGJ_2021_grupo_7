@@ -66,6 +66,7 @@ public class DialogueManagerLiving : MonoBehaviour
     {
         if (sentences.Count == 0) {
             EndDialogue();
+            FindObjectOfType<SceneNavegation>().LoadNextScene();
             return;
         }
         string sentence = sentences.Dequeue();
